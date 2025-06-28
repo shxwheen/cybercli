@@ -3,6 +3,12 @@
 .env.local
 .env.*.local
 
+# API keys and sensitive data
+api_keys.txt
+secrets.txt
+credentials.json
+# Note: .env should contain VT_API_KEY and optionally OPENAI_API_KEY
+
 # Python
 __pycache__/
 *.py[cod]
@@ -65,11 +71,6 @@ vt_scan_*.txt
 *.temp
 .cache/
 .pytest_cache/
-
-# API keys and sensitive data
-api_keys.txt
-secrets.txt
-credentials.json
 
 # Coverage reports
 htmlcov/
